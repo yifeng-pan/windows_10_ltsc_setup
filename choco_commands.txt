@@ -1,0 +1,38 @@
+Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install Brave
+choco install 7zip.install
+choco install notepadplusplus.install
+choco install sumatrapdf.install
+choco install vlc
+choco install nomacs
+choco install libreoffice-fresh
+
+choco install crystaldiskmark
+choco install crystaldiskinfo.install
+
+choco install Mullvad-app
+choco install KeePassXC
+choco install boostnote
+choco install qBittorent
+choco install calibre
+choco install Thunderbird
+choco install megasync
+choco install github-desktop
+choco install gimp
+choco install electrum.install
+
+choco install discord
+choco install Steam
+
+choco install Anki
+
+choco install python
+choco install pip
+
+pip install termdown --user
+
+
+
+choco install voicemeeter.install
