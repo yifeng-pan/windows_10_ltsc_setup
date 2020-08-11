@@ -1,7 +1,9 @@
 Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install Brave 7zip.install notepadplusplus.install sumatrapdf.install mpv nomacs libreoffice-fresh everything gimp vscodium crystaldiskmark crystaldiskinfo.install
+choco install Brave 7zip.install notepadplusplus.install sumatrapdf.install mpv nomacs libreoffice-fresh everything gimp crystaldiskmark crystaldiskinfo.install
+
+choco install ffmpeg youtube-dl
 
 choco install Mullvad-app KeePassXC
 choco install boostnote
@@ -10,6 +12,8 @@ choco install calibre
 choco install Thunderbird
 choco install megasync
 choco install github-desktop git
+choco install miktex vscodium
+# miktex takes a while
 choco install electrum.install
 choco install obs-studio
 No choco for Monero GUI
