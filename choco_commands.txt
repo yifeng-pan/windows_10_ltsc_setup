@@ -17,7 +17,8 @@ choco install ffmpeg youtube-dl
 choco install gimp blender handbrake obs-studio
 
 # LaTeX, miktex takes a while
-choco install vscodium miktex strawberryperl
+choco install miktex strawberryperl
+choco install atom
 
 choco install Mullvad-app KeePassXC
 choco install boostnote
@@ -28,6 +29,9 @@ choco install megasync
 choco install github-desktop git
 choco install electrum.install
 No choco for Monero GUI
+
+choco install javaruntime
+choco install flashplayerppapi
 
 choco install Steam
 
