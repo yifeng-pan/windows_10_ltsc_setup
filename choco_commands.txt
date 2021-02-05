@@ -2,7 +2,7 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # basic
-choco install Brave 7zip.install notepadplusplus.install libreoffice-fresh 
+choco install Brave ungoogled-chromium 7zip.install notepadplusplus.install libreoffice-fresh 
 
 # viewers
 choco install sumatrapdf.install mpv nomacs
@@ -19,6 +19,7 @@ choco install gimp blender handbrake obs-studio
 # LaTeX, miktex takes a while
 choco install miktex strawberryperl
 choco install atom
+choco install r r.studio
 
 choco install Mullvad-app KeePassXC
 choco install boostnote
@@ -30,8 +31,9 @@ choco install github-desktop git
 choco install electrum.install
 No choco for Monero GUI
 
+choco install hydrus-network
+
 choco install javaruntime
-choco install flashplayerppapi
 
 choco install Steam
 
