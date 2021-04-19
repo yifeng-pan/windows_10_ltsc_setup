@@ -15,6 +15,7 @@ choco install ffmpeg youtube-dl
 
 # edit
 choco install gimp blender handbrake obs-studio
+choco install krita
 
 # LaTeX, miktex takes a while
 choco install miktex strawberryperl
@@ -29,7 +30,7 @@ choco install Thunderbird
 choco install megasync
 choco install github-desktop git
 choco install electrum.install
-No choco for Monero GUI
+# No choco for Monero GUI
 
 choco install hydrus-network
 
