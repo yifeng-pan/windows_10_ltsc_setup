@@ -18,11 +18,12 @@ choco install gimp blender handbrake obs-studio
 choco install krita
 
 # LaTeX, miktex takes a while
+choco install vscode
 choco install miktex strawberryperl
-choco install atom
 choco install r r.studio
 
-choco install Mullvad-app KeePassXC
+# Install Mullvad from SSite
+choco install KeePassXC
 choco install boostnote
 choco install qBittorent
 choco install calibre
